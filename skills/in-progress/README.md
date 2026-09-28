@@ -18,3 +18,8 @@ npx skills@latest add mattpocock/skills --skill=<name>
 - **[pr](./pr/SKILL.md)**: Reference for the shape a pull request body should take: a summary from the primary source (not the diff), the smallest visual that shows the change, a before/after pair of evidence, what was left out on purpose, and a one-way/two-way door call. Model-invoked.
 - **[retro](./retro/SKILL.md)**: Suggest improvements to the coding agent's environment (steering files, coding standards, automated checks, tooling) after a session. STUB: design notes only, not functional yet. User-invoked.
 - **[adhd-orchestrator](./adhd-orchestrator/SKILL.md)**: Executive-function guardrails for ADHD: at most three options, one question at a time, two-minute first steps, real reminders, and a state file for picking back up. Pair with its `ALWAYS-ON.md` snippet so the rules apply in every session.
+- **[after-meeting](./after-meeting/SKILL.md)**: Read a meeting's Granola note and update state, priorities, and todos in the out-of-repo work folders. Model-invoked.
+- **[create-intent-md](./create-intent-md/SKILL.md)**: Interview to shape a rough problem into a concise `intent.md`. Model-invoked.
+- **[ee-provision](./ee-provision/SKILL.md)**: Provision or update a Clearstory Ephemeral Environment for one or more open PRs. Model-invoked.
+- **[token-saver](./token-saver/SKILL.md)**: Reduce token use in Codex or Claude sessions. Model-invoked.
+- **[predeploy-gonogo](./predeploy-gonogo/SKILL.md)**: Compile an end-of-day pre-deploy recap across all live agent sessions for a go/no-go check. Model-invoked.
