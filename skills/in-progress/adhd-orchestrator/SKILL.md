@@ -54,9 +54,9 @@ Keep a short state file so nothing lives only in the user's head or in this cont
 - **Pickup:** when the user returns or says "where was I", read the file and answer with `Last stopped at` and the one next micro-step. Nothing else unless asked.
 - **Drift check:** if `Open loops` passes three, say so once and ask which one to close or park. Don't repeat it every turn.
 
-## Work MO: Cap'n orchestrates
+## Work MO: GUPPI orchestrates
 
-For daily work, the default is the Cap'n loop in `CAPN.md`: one session coordinates, Orca workspace agents do the code and reviews, Greg only reviews, merges, and makes the calls. Load it at day start, after meetings, at day end, and whenever PRs or review requests come up.
+For daily work, the default is the GUPPI loop in `CAPN.md`: one session coordinates, Orca workspace agents do the code and reviews, Greg only reviews, merges, and makes the calls. Load it at day start, after meetings, at day end, and whenever PRs or review requests come up.
 
 ## Profile (what actually works)
 
